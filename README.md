@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4737358.svg)](https://doi.org/10.5281/zenodo.4737358)
 [![Snakemake](https://img.shields.io/badge/snakemake-≥6.1.0-brightgreen.svg)](https://snakemake.github.io)
-[![GitHub actions status](https://github.com/snakemake-workflows/rna-seq-star-deseq2/workflows/Tests/badge.svg?branch=master)](https://github.com/snakemake-workflows/rna-seq-star-deseq2/actions?query=branch%3Amaster+workflow%3ATests)
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -32,7 +32,6 @@
 This workflow performs a ExomeSeq analysis with bwa, Mutect2, Mutect, Strelka, Varscan, Sequenza.
 It has been customized to work on the HPC4Health Slurm cluster and includes extra analysis to do genotype matching.
 
-Link to the original snakemake workflow: [RNAseq-Exome-snakemake/Snakemake/exome/](https://github.com/pmcc-modil/pipelines/tree/main/RNAseq-Exome-snakemake/Snakemake/exome)
 
 ## Updates
 
