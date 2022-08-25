@@ -1,4 +1,4 @@
-# Snakemake workflow: rna-seq-star-deseq2
+# Snakemake workflow: ExomeSeq
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4737358.svg)](https://doi.org/10.5281/zenodo.4737358)
 [![Snakemake](https://img.shields.io/badge/snakemake-≥6.1.0-brightgreen.svg)](https://snakemake.github.io)
@@ -57,7 +57,7 @@ salloc --partition=build -c 1 -t 2:0:0 --mem 2G
 conda activate snakemake
 
 cd ~/workflows
-git clone git@github.com:elsamah/ExomeSeq.git
+git clone git@github.com:Cesconlab/ExomeSeq.git
 ```
 
 ### 2. Setup a blank analysis directory (Build/Project node)
